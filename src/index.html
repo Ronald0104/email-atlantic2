@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Correos Transaccionales | Casino Atlantic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
+</head>
+<style>
+  html,
+  body {
+    background: #eceffa;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  table {
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+  table tr {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    margin-bottom: 10px;
+    border-bottom: 4px solid #f8f9fd;
+  }
+
+  table tr td,
+  table tr th {
+    padding: 10px 15px;
+    border-bottom: 4px solid #eceffa;
+    color: #212529;
+  }
+
+  table tr td.left,
+  table thead tr th.left {
+    text-align: left;
+  }
+
+  table thead {}
+
+  table thead tr {}
+
+  table thead tr th {
+    padding: 20px 10px;
+  }
+
+  table td a {
+    color: #212529;
+    text-decoration: none;
+  }
+</style>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th class='left'>
+          Nombre
+        </th>
+        <th>Ruta</th>
+      </tr>
+    </thead>
+    <tbody>
+      @@loop('./tabla.html', 'data.json')
+
+    </tbody>
+  </table>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src='https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js'></script>
+<script type="text/javascript">
+  $(function () {
+    $('a').miniPreview({
+      prefetch: 'parenthover', scale: .4, width: 350,
+      height: 600
+    });
+  });
+</script>
+
+</html>

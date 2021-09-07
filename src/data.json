@@ -1,0 +1,58 @@
+[
+  {
+    "title": "E1-Email de bienvenida ",
+    "link": "E1-Email de bienvenida - LISTO.html"
+  },
+  {
+    "title": "E2-confirmacion deposito ",
+    "link": "E2-confirmacion deposito - LISTO.html"
+  },
+  {
+    "title": "E3-solucitud retiro en curso ",
+    "link": "E3-solucitud retiro en curso - LISTO.html"
+  },
+  {
+    "title": "E4-retiro aprobado ",
+    "link": "E4-retiro aprobado - LISTO.html"
+  },
+  {
+    "title": "E5-retiro denegado ",
+    "link": "E5-retiro denegado - LISTO.html"
+  },
+  {
+    "title": "E6-envio documento ",
+    "link": "E6-envio documento - LISTO.html"
+  },
+  {
+    "title": "E7-envio cuenta bancaria ",
+    "link": "E7-envio cuenta bancaria - LISTO.html"
+  },
+  {
+    "title": "E8-documento aprobado ",
+    "link": "E8-documento aprobado - LISTO.html"
+  },
+  {
+    "title": "E9-documento denegado ",
+    "link": "E9-documento denegado - LISTO.html"
+  },
+  {
+    "title": "E10-documento bancario aprobado ",
+    "link": "E10-documento bancario aprobado - LISTO.html"
+  },
+  {
+    "title": "E11-documento bancario denegada ",
+    "link": "E11-documento bancario denegada - LISTO.html"
+  },
+  {
+    "title": "E12-recuperacion contraseña ",
+    "link": "E12-recuperacion contraseña - LISTO.html"
+  },
+  {
+    "title": "E13-bloqueo de cuenta ",
+    "link": "E13-bloqueo de cuenta - LISTO.html"
+  },
+  {
+    "title": "Ganador Torneo Turbo",
+    "link": "ganador-torneo-turbo.html"
+  }
+]

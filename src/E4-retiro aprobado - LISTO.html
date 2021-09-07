@@ -1,0 +1,237 @@
+{% extends "layouts/index.html" %}
+
+{% block content %}
+    <div class="wrapper">
+      <!-- SECCION CABECERA -->
+      <table class="dark">
+        <tbody>
+          <tr class="datos">
+            <td>
+              <a href="https://www.casinoatlanticcity.com/" target="_blank">
+                <img
+                  class="logo"
+                  src="https://www.casinoatlanticcity.com/img/email/v2/logo.png"
+                  alt=""
+                  srcset=""
+                />
+              </a>
+            </td>
+            <td class="align-right">
+              <p>Tu usuario es: [ALIAS]</p>
+              <a
+                href="https://www.casinoatlanticcity.com/forgotPassword.html"
+                target="_blank"
+              >
+                Recordar contraseña
+              </a>
+            </td>
+          </tr>
+          <tr class="imagen-cabecera">
+            <td colspan="2" class="p-0">
+              <img
+                width="100%"
+                src="https://www.casinoatlanticcity.com/img/email/v2/fondo-3.png"
+                alt=""
+              />
+            </td>
+          </tr>
+          <tr></tr>
+        </tbody>
+      </table>
+      <!-- SECCION BIENVENIDA -->
+      <table class="bienvenida">
+        <tbody>
+          <tr>
+            <td>
+              <h1>Hola [NAME]</h1>
+              <div class="line"></div>
+              <p class="subtitulo-contenido">
+                Te confirmamos que tu solicitud de retiro de efectivo ha sido
+                aprobada y está siendo procesada.
+              </p>
+              <p class="subtitulo">Detalle de la solicitud</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="bienvenida detalle-transaccion">
+        <tbody>
+          <tr>
+            <td class="">
+              <p class="data-title"><strong>N° Transacción:</strong></p>
+              <br />
+              <p class="data">[transactionId]</p>
+            </td>
+            <td class="line-title">
+              <div class="vertical-line"></div>
+            </td>
+            <td>
+              <p class="data-title2"><strong>Importe Solicitado:</strong></p>
+              <br />
+              <p class="data2">[amount]</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <p class="subtitulo-contenido">
+                Visualizarás el abono en tu cuenta bancaria una vez que tu banco
+                haya realizado las verificaciones correspondientes.
+              </p>
+              <p class="subtitulo-contenido">
+                Ante cualquier duda, permítenos ayudarte a través de nuestros
+                canales de contacto.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="line"></div>
+      <!-- SECCION TITULO SCORE -->
+      <div class="padding-24">
+        <table class="score">
+          <tbody>
+            <tr>
+              <td>
+                <h3>Agradecemos y valoramos conocer tu experiencia.</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>
+                  En la escala del 1 al 5, ¿Qué te pareció el proceso de retiro?
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- SECCION SCORE -->
+      <div class="padding-24">
+        <table class="score score-numbers">
+          <tbody>
+            <tr>
+              <td>
+							<a target='_blank' href='https://crmcloud.acity.com.pe/encuesta/index.aspx?id=3&alias=[ALIAS]&opcion=1' class="count">1</a>
+						</td>
+						<td>
+							<a target='_blank' href='https://crmcloud.acity.com.pe/encuesta/index.aspx?id=3&alias=[ALIAS]&opcion=2' class="count">2</a>
+						</td>
+						<td>
+							<a target='_blank' href='https://crmcloud.acity.com.pe/encuesta/index.aspx?id=3&alias=[ALIAS]&opcion=3' class="count">3</a>
+						</td>
+						<td>
+							<a target='_blank' href='https://crmcloud.acity.com.pe/encuesta/index.aspx?id=3&alias=[ALIAS]&opcion=4' class="count">4</a>
+						</td>
+						<td>
+							<a target='_blank' href='https://crmcloud.acity.com.pe/encuesta/index.aspx?id=3&alias=[ALIAS]&opcion=5' class="count">5</a>
+						</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="score score-numbers">
+          <tbody>
+            <tr>
+              <td class="t-left">
+                <span>Muy difícil</span>
+              </td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td class="t-right">
+                <span>Muy fácil</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- SECCION SALUDOS -->
+      <table class="saludo">
+        <tbody>
+          <tr>
+            <td>
+              Saludos,
+              <strong>Atlantic City</strong>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- SECCION FOOTER -->
+      <table class="dark footer">
+        <tbody>
+          <tr class="title">
+            <td colspan="3">
+              <h4>Canales de contacto</h4>
+            </td>
+          </tr>
+          <tr class="contacto">
+            <td>
+              <a target="_blank" href="https://www.casinoatlanticcity.com/">
+                <img
+                  width="54"
+                  src="https://www.casinoatlanticcity.com/img/email/v2/chat.png"
+                  alt=""
+                  srcset=""
+                />
+                <p>Chat</p>
+              </a>
+            </td>
+            <td>
+              <a href="mailto:soporte@casinoatlanticcity.com">
+                <img
+                  width="54"
+                  src="https://www.casinoatlanticcity.com/img/email/v2/email.png"
+                  alt=""
+                  srcset=""
+                />
+                <p>soporte@casinoatlanticcity.com</p>
+              </a>
+            </td>
+            <td>
+              <a href="tel:017054440">
+                <img
+                  width="54"
+                  src="https://www.casinoatlanticcity.com/img/email/v2/telefono.png"
+                  alt=""
+                  srcset=""
+                />
+                <p>(01) 705-4440</p>
+              </a>
+            </td>
+          </tr>
+          <tr class="juega-desde">
+            <td colspan="3">
+              <p>
+                <span>Juega desde tu:</span> Celular | Tablet | Laptop |
+                Computadora
+              </p>
+            </td>
+          </tr>
+          <tr class="terminos">
+            <td colspan="3">
+              <a
+                href="https://www.casinoatlanticcity.com/terminos-y-condiciones"
+                target="_blank"
+              >
+                Términos & Condiciones
+              </a>
+              <img
+                width="38"
+                src="https://www.casinoatlanticcity.com/img/email/v2/18.png"
+                alt=""
+              />
+            </td>
+          </tr>
+          <tr class="primary">
+            <td colspan="3">
+              <a href="https://www.casinoatlanticcity.com/" target="_blank">
+                www.casinoatlanticcity.com
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+
+{% endblock %}

@@ -1,0 +1,148 @@
+{% extends "layouts/index.html" %}
+
+{% block content %}
+	<div class='wrapper'>
+		<!-- SECCION CABECERA -->
+		<table class='dark'>
+			<tbody>
+				<tr class='datos'>
+					<td>
+						<a href='https://www.casinoatlanticcity.com/' target='_blank'>
+							<img class='logo' src="https://www.casinoatlanticcity.com/img/email/v2/logo.png" alt="" srcset="">
+						</a>
+					</td>
+					<td class='align-right'>
+						<p>Tu usuario es: [ALIAS]</p>
+						<a href="https://www.casinoatlanticcity.com/forgotPassword.html" target='_blank'>
+							Recordar contraseña
+						</a>
+					</td>
+				</tr>
+				<tr class="imagen-cabecera">
+					<td colspan='2' class='p-0'>
+						<img width='100%' src="https://www.casinoatlanticcity.com/img/email/v2/fondo-3.png" alt="">
+					</td>
+				</tr>
+				<tr>
+				</tr>
+			</tbody>
+		</table>
+		<!-- SECCION BIENVENIDA -->
+		<table class='bienvenida'>
+			<tbody>
+				<tr>
+					<td>
+						<h1>Hola [NAME]</h1>
+						<div class='line'></div>
+						<p class="subtitulo-contenido">
+							Hemos recibido tu solicitud de retiro de efectivo con éxito y por tu seguridad, primero será revisada por nuestro equipo.
+						</p>
+						<p class="subtitulo">Detalle de la solicitud</p>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<tbody>
+				<table class="bienvenida detalle-transaccion">
+					<tr>
+						<td class="">
+							<p class="data-title"><strong>N° Transacción:</strong></p>
+							<br>
+							<p class="data">[transactionId]</p>
+						</td>
+						<td class="line-title">
+							<div class="vertical-line"></div>
+						</td>
+						<td>
+							<p class="data-title2"><strong>Importe Solicitado:</strong></p>
+							<br>
+							<p class="data2">[amount]</p>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<p class="subtitulo-contenido">
+								Tan pronto como tu solicitud de retiro haya sido verificada y esté conforme, te estaremos enviando un correo electrónico confirmando la aprobación.
+							</p>
+							<p class="subtitulo-contenido">
+								Ante cualquier duda, permítenos ayudarte a través de nuestros canales de contacto.
+							</p>
+						</td>
+					</tr>
+				
+			</tbody>
+		</table>
+		<!-- SECCION SALUDOS -->
+		<table class='saludo'>
+			<tbody>
+				<tr>
+					<td>
+						Saludos,
+						<strong>Atlantic City</strong>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<!-- SECCION FOOTER -->
+		<table class='dark footer'>
+			<tbody>
+				<tr class='title'>
+					<td colspan='3'>
+						<h4>
+							Canales de contacto
+						</h4>
+					</td>
+				</tr>
+				<tr class='contacto'>
+					<td>
+						<a target='_blank' href='https://www.casinoatlanticcity.com/'>
+							<img width='54' src="https://www.casinoatlanticcity.com/img/email/v2/chat.png" alt="" srcset="">
+							<p>Chat</p>
+						</a>
+					</td>
+					<td>
+						<a href='mailto:soporte@casinoatlanticcity.com'>
+							<img width='54' src="https://www.casinoatlanticcity.com/img/email/v2/email.png" alt="" srcset="">
+							<p>soporte@casinoatlanticcity.com</p>
+						</a>
+					</td>
+					<td>
+						<a href="tel:017054440">
+							<img width='54' src="https://www.casinoatlanticcity.com/img/email/v2/telefono.png" alt="" srcset="">
+							<p>
+								(01) 705-4440
+							</p>
+						</a>
+					</td>
+				</tr>
+				<tr class='juega-desde'>
+					<td colspan="3">
+						<p>
+							<span>Juega desde tu:</span> Celular | Tablet | Laptop | Computadora
+						</p>
+					</td>
+				</tr>
+				<tr class='terminos'>
+					<td colspan='3'>
+						<a href="https://www.casinoatlanticcity.com/terminos-y-condiciones" target='_blank'>
+							Términos & Condiciones
+						</a>
+						<img width='38' src="https://www.casinoatlanticcity.com/img/email/v2/18.png" alt="">
+					</td>
+				</tr>
+				<tr class='primary'>
+					<td colspan="3">
+						<a href="https://www.casinoatlanticcity.com/" target='_blank'>
+							www.casinoatlanticcity.com
+						</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+	
+{% endblock %}
+
