@@ -98,6 +98,7 @@ table {
 }
 .dark {
   background: black;
+  background-color: black;
 }
 .datos {
   color: white;
@@ -193,6 +194,7 @@ table {
 .footer-atlantic {
   color: white;
   text-align: center;
+  background: #292929;
   .primary, &.primary {
     // background: #c7ab59;
     background-color: #c7ab59 !important;
@@ -249,12 +251,17 @@ table {
     td {
       padding: 20px 0;
       margin-top: 20px;
+      font-size: 18px;
     }
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
+    // border-bottom: 2px solid white;
+    // border-top: 2px solid white;
     text-align: center;
+    p{
+      font-size: 18px;
+    }
     span {
       display: block;
+      font-size: 18px;
     }
   }
   .terminos {
@@ -272,7 +279,11 @@ table {
     }
   }
 }
-
+.line-table{
+  height: 2px;
+  width : 100%;
+  background-color: white;
+}
 /*Detalle Transaccion*/
 .detalle-transaccion {
   margin-top: 20px;
@@ -636,13 +647,17 @@ table {
         
       }
       td {
-        display: table-cell !important;
+        // display: table-cell !important;
         text-align: center;
         // width: 100%;
         // max-width: 33%;
         color: white !important;
         a{
           color: white !important;
+          font-size: 18px;
+          span{
+            font-size: 18px;
+          }
         }
       }
       img {
